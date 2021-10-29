@@ -5,29 +5,30 @@
   </head>
   <body>
     <form>
-    <h1>Playing with numbers</h1>
-    <label for="numbers">Enter the numbers, separated by commas.</label>
-    <input type="text" placeholder="1, 2, 3, 4" id="myText" />
+      <h1>Playing with numbers</h1>
+      <label for="numbers">Enter the numbers, separated by commas.</label>
+      <br />
+      <input type="text" placeholder="1, 2, 3, 4" id="myText" />
 
-    <!-- Create radio buttons -->
-    <div>
-      <input type="radio" id="sum" value="sum" name="operation" />
-      <label for="option2">Find the sum</label>
-    </div>
+      <!-- Create radio buttons -->
+      <div class="radio-btn">
+        <input type="radio" id="sum" value="sum" name="operation" />
+        <label for="option2">Find the sum</label>
+      </div>
 
-    <div>
-      <input type="radio" id="even" value="even" name="operation" />
-      <label for="even">Find any even numbers</label>
-    </div>
+      <div class="radio-btn">
+        <input type="radio" id="even" value="even" name="operation" />
+        <label for="even">Find any even numbers</label>
+      </div>
 
-    <div>
-      <input type="radio" id="multiply" value="multiply" name="operation" />
-      <label for="even">Double all the numbers</label>
-    </div>
-
-    <button id="btn" type="submit">Check</button>
-    <div id="output"></div>
-  </form>
+      <div class="radio-btn">
+        <input type="radio" id="multiply" value="multiply" name="operation" />
+        <label for="even">Double all the numbers</label>
+      </div>
+      <br />
+      <button id="btn" type="submit">Check</button>
+      <div id="output"></div>
+    </form>
   </body>
   <script src="script.js"></script>
 </html>
