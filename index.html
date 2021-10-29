@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <form>
+    <h1>Playing with numbers</h1>
+    <label for="numbers">Enter the numbers, separated by commas</label>
+    <input type="text" placeholder="1, 2, 3, 4" id="myText" />
+
+    <!-- Create radio buttons -->
+    <div>
+      <input type="radio" id="sum" value="sum" name="operation" />
+      <label for="option2">Find the sum</label>
+    </div>
+
+    <div>
+      <input type="radio" id="even" value="even" name="operation" />
+      <label for="even">Find any even numbers</label>
+    </div>
+
+    <button id="btn" type="submit">Check</button>
+    <div id="output"></div>
+  </form>
+  </body>
+  <script src="script.js"></script>
+</html>
